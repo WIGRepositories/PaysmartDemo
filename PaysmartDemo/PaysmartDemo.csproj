@@ -370,9 +370,6 @@
     <Content Include="UI\vendors\bootstrap-daterangepicker\moment.js" />
     <Content Include="UI\vendors\bootstrap-daterangepicker\moment.min.js" />
     <Content Include="UI\vendors\bootstrap-daterangepicker\README.html" />
-    <Content Include="UI\vendors\bootstrap-datetimepicker\build\css\bootstrap-datetimepicker.css" />
-    <Content Include="UI\vendors\bootstrap-datetimepicker\build\css\bootstrap-datetimepicker.min.css" />
-    <Content Include="UI\vendors\bootstrap-datetimepicker\build\js\bootstrap-datetimepicker.min.js" />
     <Content Include="UI\vendors\bootstrap-datetimepicker\src\js\bootstrap-datetimepicker.js" />
     <Content Include="UI\vendors\bootstrap-datetimepicker\src\js\locales\bootstrap-datetimepicker.ar-ma.js" />
     <Content Include="UI\vendors\bootstrap-datetimepicker\src\js\locales\bootstrap-datetimepicker.ar.js" />
@@ -875,8 +872,6 @@
     <Content Include="UI\vendors\flot-chart\examples\series-pie\index.html" />
     <Content Include="UI\vendors\flot-chart\examples\series-toggle\index.html" />
     <Content Include="UI\vendors\flot-chart\examples\series-types\index.html" />
-    <Content Include="UI\vendors\flot-chart\examples\shared\jquery-ui\jquery-ui.min.css" />
-    <Content Include="UI\vendors\flot-chart\examples\shared\jquery-ui\jquery-ui.min.js" />
     <Content Include="UI\vendors\flot-chart\examples\stacking\index.html" />
     <Content Include="UI\vendors\flot-chart\examples\symbols\index.html" />
     <Content Include="UI\vendors\flot-chart\examples\threshold\index.html" />
@@ -903,7 +898,6 @@
     <Content Include="UI\vendors\flot-chart\jquery.flot.threshold.js" />
     <Content Include="UI\vendors\flot-chart\jquery.flot.time.js" />
     <Content Include="UI\vendors\flot-chart\jquery.flot.tooltip.js" />
-    <Content Include="UI\vendors\flot-chart\jquery.flot.tooltip.min.js" />
     <Content Include="UI\vendors\flot-chart\jquery.js" />
     <Content Include="UI\vendors\flot-chart\LICENSE.txt" />
     <Content Include="UI\vendors\font-awesome\css\font-awesome.css" />
@@ -1470,7 +1464,6 @@
     <Content Include="UI\vendors\lightbox\js\lightbox.js" />
     <Content Include="UI\vendors\lightbox\js\lightbox.min.js" />
     <Content Include="UI\vendors\metisMenu\jquery.metisMenu.js" />
-    <Content Include="UI\vendors\mixitup\build\jquery.mixitup.min.js" />
     <Content Include="UI\vendors\mixitup\docs\api-methods.html" />
     <Content Include="UI\vendors\mixitup\Gruntfile.js" />
     <Content Include="UI\vendors\mixitup\src\jquery.mixitup.js" />
@@ -1928,7 +1921,6 @@
     <Content Include="UI\vendors\jquery-file-upload\server\node\.gitignore" />
     <Content Include="UI\vendors\jquery-file-upload\server\node\package.json" />
     <Content Include="UI\vendors\jquery-file-upload\server\node\public\files\.gitignore" />
-    <Content Include="UI\vendors\jquery-file-upload\server\node\public\files\thumbnail\.gitignore" />
     <Content Include="UI\vendors\jquery-file-upload\server\node\tmp\.gitignore" />
     <Content Include="UI\vendors\jquery-file-upload\server\php\files\.gitignore" />
     <Content Include="UI\vendors\jquery-file-upload\server\php\files\.htaccess" />
@@ -2015,7 +2007,14 @@
     <Folder Include="Controllers\" />
     <Folder Include="UI\images\avatar\" />
     <Folder Include="UI\vendors\bootstrap-datetimepicker\bootstrap\" />
+    <Folder Include="UI\vendors\jquery-file-upload\server\node\public\files\thumbnail\" />
     <Folder Include="UI\vendors\jquery-ui-1.10.4.custom\jquery-ui-1.10.4.custom\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\PaysmartDemo.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
